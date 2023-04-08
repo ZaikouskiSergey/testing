@@ -1,5 +1,6 @@
 import {student, StudentType} from "../02/02";
 import {CityType, GoverType, HouseType} from "../02/02_02";
+import {findAllByDisplayValue} from "@testing-library/react";
 
 export const sum = (a: number, b: number) => {
     return a + b
